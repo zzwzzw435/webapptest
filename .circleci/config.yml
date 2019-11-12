@@ -5,7 +5,7 @@ jobs:
     filter:
       branches:
         only:
-          - assignment7
+          - master
     docker:
       - image: circleci/openjdk:8-jdk
     steps:
